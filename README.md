@@ -10,6 +10,16 @@
 
 ## 安装
 
+### 使用 Fisher（推荐）
+
+如果你已经安装了 [Fisher](https://github.com/jorgebucaran/fisher)：
+
+```bash
+fisher install overstart/wslpath-fish
+```
+
+### 手动安装
+
 1. 创建 fish functions 目录（如果不存在）：
 
 ```bash
@@ -19,9 +29,9 @@ mkdir -p ~/.config/fish/functions
 2. 复制函数文件：
 
 ```bash
-cp to_wsl.fish ~/.config/fish/functions/
-cp to_windows.fish ~/.config/fish/functions/
-cp convert_path.fish ~/.config/fish/functions/
+cp functions/to_wsl.fish ~/.config/fish/functions/
+cp functions/to_windows.fish ~/.config/fish/functions/
+cp functions/convert_path.fish ~/.config/fish/functions/
 ```
 
 3. 重新加载 fish 配置或重启终端：
