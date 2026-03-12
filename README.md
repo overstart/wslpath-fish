@@ -150,7 +150,7 @@ to_windows "/home/user/documents"
 使用 npx 快速安装技能：
 
 ```bash
-npx skills install @overstart/to-wsl-skill
+npx skills install overstart/wslpath-fish
 ```
 
 安装完成后，技能会自动集成到支持的 CLI 工具中。

@@ -1,5 +1,5 @@
 /**
- * @overstart/to-wsl-skill
+ * @overstart/wslpath-fish
  *
  * wslpath-fish 是一个 Fish shell 插件，用于在 Windows 路径和 WSL 路径之间快速转换
  *

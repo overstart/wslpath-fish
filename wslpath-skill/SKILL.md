@@ -244,7 +244,7 @@ wslpath-fish 插件提供以下三个核心函数：
 ### CLI 技能安装（推荐）
 
 ```bash
-npx skills install overstart/wslpath-fish@wslpath-skill
+npx skills install overstart/wslpath-fish
 ```
 
 ### 手动安装
@@ -289,7 +289,7 @@ convert_path "C:\test"
 
 - **项目名称**：wslpath-fish
 - **项目地址**：https://github.com/overstart/wslpath-fish
-- **NPM 包**：@overstart/to-wsl-skill
+- **NPM 包**：@overstart/wslpath-fish
 - **许可证**：MIT
 - **语言**：Fish shell
 
