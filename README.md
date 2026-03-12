@@ -104,14 +104,13 @@ convert_path "/mnt/c/test"
 
 ### 安装技能
 
-将 `to_wsl/` 目录复制到相应 CLI 工具的技能目录：
+使用 npx 快速安装技能：
 
 ```bash
-# 对于 iFlow CLI
-cp -r to_wsl ~/.iflow/skills/
-
-# 对于其他 CLI 工具，请根据其文档将技能复制到相应目录
+npx skills install @overstart/wslpath-fish
 ```
+
+安装完成后，技能会自动集成到支持的 CLI 工具中。
 
 ### 在 CLI 中使用
 
