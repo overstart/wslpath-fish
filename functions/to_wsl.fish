@@ -17,8 +17,8 @@ function to_wsl --description "Convert Windows path to WSL path"
     set -l path_without_drive (string sub -s 3 -- $input)
 
     # Convert backslashes to forward slashes
+    set -l path_without_drive (string replace -a '\\' '/' $path_without_drive)
     set -l wsl_path "/mnt/$drive_letter$path_without_drive"
-    set -l wsl_path (string replace -a '\\' '/' $wsl_path)
 
     echo $wsl_path
 end
